@@ -6,7 +6,7 @@ Used to update the Internet filtering capability of DNS Redirector; it can retri
 
 The latest version from GitHub is: v2.3.0.2 r10/02/2020 (requires .NET Framework 4.6.1)
 
-You can download it here: https://github.com/JPElectron/DNSRedirOSSUpdater/raw/master/updater.exe
+You can download it here: https://github.com/JPElectron/DNSRedirOSSUpdater/raw/main/updater.exe
 
     You MUST unblock this package before extracting
     Right-click on the updater.exe you downloaded, select Properties, click the Unblock button
