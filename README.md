@@ -21,13 +21,14 @@ This same Updater application and associated files are included in the DNSRedirO
 
 https://github.com/JPElectron/DNSRedirOSS
 
+
 ## Useage
 
 updater.exe assumes BlockedKeywordsFile=blocked.txt in dnsredir.ini (because blocked.txt is the output file) and that you're using DNS Redirector v7.2.x or later.
 
 Don't add your own keywords to blocked.txt directly because they will be overwritten when the update is run. For this purpose, create a blocked-custom.txt file in the working directory and specify this filename under "Include these custom files:" then check the box beside it so it gets incorporated into blocked.txt
 
-With updater.exe v2.3.0.2 options to download and create an allowed.txt and/or nxdforce.txt are also available
+With updater.exe v2.3.0.2 options to download and create an allowed.txt and/or nxdforce.txt are also available.
 
     [DEPRECIATED INFO from the old DNS Redirector site]
       With updater.exe v2.2.x or later, when a DNS Redirector license is found, additional options to download and create an allowed.txt and/or nxdforce.txt file becomes available.
@@ -56,6 +57,16 @@ Use a scheduled task to run updater.exe every X days...
 Usually late at night (after 11pm CST is suggested, when your network is least active, there is no advantage to running it more than once a day)
 Administrative Tools > Task Scheduler
 ...define the program as C:\DNSREDIR\updater.exe and the start in or working directory as C:\DNSREDIR
+
+
+## License
+
+GPL does not allow you to link GPL-licensed components with other proprietary software (unless you publish as GPL too).
+
+GPL does not allow you to modify the GPL code and make the changes proprietary, so you cannot use GPL code in your non-GPL projects.
+
+If you wish to integrate this software into your commercial software package, or you are a corporate entity with more than 10 employees, then you should obtain a per-instance license, or a site-wide license, from http://jpelectron.com/buy
+
 
 ## Version History
 
