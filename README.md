@@ -17,12 +17,17 @@ You can download it here: https://github.com/JPElectron/DNSRedirOSSUpdater/raw/m
     Verify your scheduled task is set to run updater.exe once a day
     Optionally, run updater.exe to do an update now
 
-This same Updater application and associated files are included in the DNSRedirOSS .zip which is available from:
+This same Updater application and associated files are included in the DNSRedirOSS repository .zip
+
+
+## Related repositories
 
 https://github.com/JPElectron/DNSRedirOSS
 
+https://github.com/JPElectron/keywords
 
-## Useage
+
+## Documentation
 
 updater.exe assumes BlockedKeywordsFile=blocked.txt in dnsredir.ini (because blocked.txt is the output file) and that you're using DNS Redirector v7.2.x or later.
 
@@ -102,4 +107,5 @@ v2.0.0.2 12/05/2009
  - Added PhishTank data retrieval
  - Updater rebuilt, requires .NET Framework 2.0
 
-[END of Readme]
+
+[End of Line]
